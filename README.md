@@ -1,7 +1,7 @@
-# cps
+# cps (continuation passing style)
 cps is a tiny library that lifts any function into a function that takes a continuation.
 
-all it exposes is `cps` and `chain`
+All it exposes is `cps` and `chain`
 
 e.g.
 
@@ -13,7 +13,7 @@ e.g.
 
 `add1Cps(5)((x)-> x+1)` => 6
 
-if you want to chain together a number of cps functions then you can use 
+If you want to chain together a number of cps functions then you can use 
 
 `chain`
 
