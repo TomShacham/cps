@@ -1,6 +1,8 @@
 # cps
 cps is a tiny library that lifts any function into a function that takes a continuation.
 
+all it exposes is `cps` and `chain`
+
 e.g.
 
 `add1    = (x) -> x + 1`
